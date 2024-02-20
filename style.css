@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100svh;
+  width: 100vw;
+  display: flex;
+  background-color: #ECF2FF;
+  justify-content: center;
+  align-items: center;
+}
+
+.motherContainer{
+  width: 736px;
+  height: 512px;
+  border-radius: 32px;
+  color: #FFFFFF;
+  box-shadow: 0px 30px 60px 0px #3D6CEC26;
+  display: flex;
+}
+
+.left{
+  width: 368px;
+  height: 512px;
+  border-radius: 32px;
+  background-color: rgb(49, 49, 168) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 46px 54px;
+}
+
+.right{
+  width: 368px;
+  height: 512px;
+  border-radius: 32px;
+}
+
+h1 {
+  font-family: Hanken Grotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #CAC9FF;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgb(19, 19, 135);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 55px 60px 46px 59px;
+  justify-content: space-around;
+  h3 {
+    font-family: Hanken Grotesk;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  span {
+    font-family: Hanken Grotesk;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #CAC9FF;
+    ;
+  }
+}
+
+h2 {
+  font-family: Hanken Grotesk;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #CAC9FF;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 38px 40px;
+  h2 {
+    font-family: Hanken Grotesk;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #303B59;
+    ;
+  }
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 56px;
+  width: 288px;
+}
+
+.reaction {
+  border-radius: 12px;
+  background-color: rgb(200, 37, 46, 0.05);
+}
+.memory {
+  border-radius: 12px;
+}
+.verbal{
+  border-radius: 12px;
+}
+.visual {
+  border-radius: 12px;
+}
+
+
+button {
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+  width: 288px;
+  height: 56px;
+  border-radius: 128px;
+}
